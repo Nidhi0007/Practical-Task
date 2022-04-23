@@ -8,7 +8,7 @@ function UserComp(props) {
   const dispatch = useDispatch();
 
   const deleteUserFunc = (id) => {
-    // api call to delete user
+    // api call to delete user.
     dispatch(deleteUser(id)).then((res) => {
       getList();
       getListDeleted();
