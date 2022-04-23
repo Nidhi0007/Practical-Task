@@ -5,6 +5,7 @@
 ## Install server
 
 **_cd server_**
+
 **_npm install_**
 
 # Start the react app
