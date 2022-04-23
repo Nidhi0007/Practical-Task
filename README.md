@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # Start the server
 
-**_npm run start_**
+**_npm run start_**\
 Runs the backend in the development mode on port 5000.\
 
 You will also see any lint errors in the console.
