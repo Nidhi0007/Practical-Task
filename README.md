@@ -24,6 +24,6 @@ You will also see any lint errors in the console.
 
 create a .env file in root and copy the code from env_example file\
 
-# Setup environment variable
+# Postman collection link
 
 **https://www.postman.com/collections/b64463eda46d9eda310a**
