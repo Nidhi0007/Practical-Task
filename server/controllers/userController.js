@@ -1,5 +1,6 @@
 const fs = require("fs");
 
+// create user function
 module.exports.createUser = async (req, res) => {
   // reading from json file
   var data = fs.readFileSync("../server/models/user.json");
@@ -26,7 +27,7 @@ module.exports.createUser = async (req, res) => {
     data: req.body,
   });
 };
-
+// edit user function
 module.exports.editUser = async (req, res) => {
   const id = req.params.id;
   var data = fs.readFileSync("../server/models/user.json");
@@ -60,7 +61,7 @@ module.exports.editUser = async (req, res) => {
   });
   // });
 };
-
+// restore user function
 module.exports.restoreUser = async (req, res) => {
   const id = req.params.id;
   var data = fs.readFileSync("../server/models/user.json");
@@ -83,7 +84,7 @@ module.exports.restoreUser = async (req, res) => {
   });
   // });
 };
-
+// remove user function
 module.exports.removeUser = async (req, res) => {
   const id = req.params.id;
   var data = fs.readFileSync("../server/models/user.json");
@@ -106,7 +107,7 @@ module.exports.removeUser = async (req, res) => {
   });
   // });
 };
-
+// get all user function
 module.exports.getUser = async (req, res) => {
   // reading from json file
   var data = fs.readFileSync("../server/models/user.json");
