@@ -22,4 +22,8 @@ You will also see any lint errors in the console.
 
 # Setup environment variable
 
-create a .env file in root and copy the code from env_example file
+create a .env file in root and copy the code from env_example file\
+
+# Setup environment variable
+
+**https://www.postman.com/collections/b64463eda46d9eda310a**
